@@ -8,8 +8,8 @@
   dollPrototype: CP14MobCarrinDummy
   skinColoration: Hues
   defaultSkinTone: "#313131"
-  maleFirstNames: CP14_Names_Carrin_First
-  femaleFirstNames: CP14_Names_Carrin_First
+  maleFirstNames: CP14_Names_Carrin_Male_First
+  femaleFirstNames: CP14_Names_Carrin_Female_First
   lastNames: CP14_Names_Carrin_Last
 
 - type: speciesBaseSprites

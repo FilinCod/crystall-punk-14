@@ -118,9 +118,15 @@
 # Carrin
 
 - type: localizedDataset
-  id: CP14_Names_Carrin_First
+  id: CP14_Names_Carrin_Male_First
   values:
     prefix: cp14-species-name-carrin-male-first-
+    count: 35
+
+- type: localizedDataset
+  id: CP14_Names_Carrin_Female_First
+  values:
+    prefix: cp14-species-name-carrin-female-first-
     count: 35
 
 - type: localizedDataset

@@ -51,3 +51,21 @@
   sprites:
     - sprite: _CP14/Mobs/Customization/carrin_hair.rsi
       state: 6
+
+- type: marking
+  id: CP14CarrinHair7
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ CP14Carrin ]
+  sprites:
+  - sprite: _CP14/Mobs/Customization/carrin_hair.rsi
+    state: 7
+
+- type: marking
+  id: CP14CarrinHair8
+  bodyPart: Hair
+  markingCategory: Hair
+  speciesRestriction: [ CP14Carrin ]
+  sprites:
+  - sprite: _CP14/Mobs/Customization/carrin_hair.rsi
+    state: 8

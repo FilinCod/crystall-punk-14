@@ -1,22 +1,21 @@
 {
   "version": 1,
   "license": "CC-BY-SA-4.0",
-  "copyright": "Created by TheShuEd (Github)",
+  "copyright": "Created by FilinCod (Github)",
   "size": {
     "x": 48,
     "y": 48
   },
+  "load": {
+      "srgb": false
+  },
   "states": [
     {
-      "name": "1",
+      "name": "head",
       "directions": 4
     },
     {
-      "name": "2",
-      "directions": 4
-    },
-    {
-      "name": "3",
+      "name": "neck",
       "directions": 4
     }
   ]
