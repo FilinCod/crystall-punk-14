@@ -90,7 +90,7 @@ public sealed partial class CP14RoundEndSystem
         var isWeekend = now.DayOfWeek is DayOfWeek.Saturday || now.DayOfWeek is DayOfWeek.Sunday;
 
         var allowedRuPlaytime = isWeekend ? now.Hour is >= 13 and < 17 : now.Hour is >= 15 and < 19;
-        var allowedEngPlaytime = now.Hour is >= 19 and < 23;
+        var allowedEngPlaytime = isWeekend ? now.Hour is >= 17 and < 21 : now.Hour is >= 19 and < 23;
         var isMonday = now.DayOfWeek is DayOfWeek.Monday;
 
         if (((ruDays && allowedRuPlaytime) || (!ruDays && allowedEngPlaytime)) && !isMonday)
@@ -139,7 +139,7 @@ public sealed partial class CP14RoundEndSystem
 
                 _consoleHost.ExecuteCommand("golobby");
             }),
-            (22, 44, () =>
+            (20, 45, () =>
             {
                 if (ruDays)
                     return;
@@ -150,14 +150,14 @@ public sealed partial class CP14RoundEndSystem
                     sender: "Server"
                 );
             }),
-            (22, 58, () =>
+            (20, 58, () =>
             {
                 if (ruDays)
                     return;
 
                 _consoleHost.ExecuteCommand("endround");
             }),
-            (23, 00, () =>
+            (21, 00, () =>
             {
                 if (ruDays)
                     return;

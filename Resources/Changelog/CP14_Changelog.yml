@@ -2297,3 +2297,131 @@
   id: 8277
   time: '2025-09-28T08:16:52.0000000+00:00'
   url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1805
+- author: TheShuEd
+  changes:
+  - message: Disabled magic fairies until fix, becaues they cause server crashes
+    type: Remove
+  - message: Fixed lurker melee stun interrupting
+    type: Fix
+  id: 8278
+  time: '2025-09-28T20:53:15.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1811
+- author: TTTomaTTT, oldschool_otaku
+  changes:
+  - message: Added custom burning sprites
+    type: Add
+  id: 8279
+  time: '2025-09-30T12:02:49.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1813
+- author: Nimfar11
+  changes:
+  - message: Adds snails and their shells as an appetiser. Be careful when hitting
+      them, they are very fragile.
+    type: Add
+  id: 8280
+  time: '2025-09-30T16:27:58.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1753
+- author: oldschool_otaku
+  changes:
+  - message: Hallucinogenic solution is fixed
+    type: Fix
+  id: 8281
+  time: '2025-10-01T11:36:06.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1764
+- author: oldschool_otaku
+  changes:
+  - message: Added cats!
+    type: Add
+  id: 8282
+  time: '2025-10-01T14:44:09.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1814
+- author: kin98
+  changes:
+  - message: Incendiary solution Ignites characters on hit
+    type: Add
+  - message: incendiary solution now does 1.5 heat.
+    type: Tweak
+  id: 8283
+  time: '2025-10-02T10:24:58.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1815
+- author: Viator-MV
+  changes:
+  - message: Comoss and Venicialis fort, maps now have distant fog at the end of paths
+      heading out of town (round leave).
+    type: Tweak
+  - message: Comoss and Venicialis fort, guild buildings have their external doors
+      able to be locked now by guild workers.
+    type: Tweak
+  id: 8284
+  time: '2025-10-03T17:47:24.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1821
+- author: KittyCat432
+  changes:
+  - message: hypnosis and fear (lurker) spells have a shorter use time, to compensate
+      for the increase to mana cost on hypnosis its been cut in half.
+    type: Tweak
+  - message: Spider's nest now includes more spiders
+    type: Tweak
+  - message: The scimitar loadout option now spawns with 2 scimitars instead of 1
+      and a buckler.
+    type: Tweak
+  - message: Peaceful mobs (sheep, rabbits, boars, etc.) will nolonger be attacked
+      by monsters.
+    type: Tweak
+  - message: Skeleton and bone hound now have passive health regen.
+    type: Tweak
+  id: 8285
+  time: '2025-10-07T09:14:44.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1825
+- author: oldschool_otaku
+  changes:
+  - message: Solution cleaner works faster now(1.6x if to be precise), but uses more
+      mana.
+    type: Tweak
+  id: 8286
+  time: '2025-10-12T11:55:15.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1827
+- author: oldschool_otaku, lugzag
+  changes:
+  - message: '"Big ears" marking for elves'
+    type: Add
+  id: 8287
+  time: '2025-10-24T11:49:47.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1836
+- author: omsoyk
+  changes:
+  - message: Resprite hide, leather and tanner table
+    type: Tweak
+  id: 8288
+  time: '2025-10-24T18:17:19.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1837
+- author: oldschool_otaku
+  changes:
+  - message: Added halloween pumpkins and jack-o'lanterns!
+    type: Add
+  id: 8289
+  time: '2025-10-29T17:15:13.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1822
+- author: kin98
+  changes:
+  - message: Magical Vision drains Mana now
+    type: Tweak
+  id: 8290
+  time: '2025-10-31T18:11:15.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1832
+- author: TheShuEd
+  changes:
+  - message: fixed bug with toggling mana vision for entire server
+    type: Fix
+  id: 8291
+  time: '2025-11-01T13:56:03.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1842
+- author: Minokaa
+  changes:
+  - message: Change emote prefix from @ to %.
+    type: Tweak
+  - message: Added custom age to different races.
+    type: Tweak
+  id: 8292
+  time: '2025-11-17T08:38:44.0000000+00:00'
+  url: https://github.com/crystallpunk-14/crystall-punk-14/pull/1835
